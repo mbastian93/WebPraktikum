@@ -1,0 +1,95 @@
+
+Seitencontainer
+---------------
+Breite: 980px
+Padding: 15px
+Box-Shadow: box-shadow: 0 0 5px 5px #D8D8D8;
+
+	
+Navigation
+---------------
+Schriftgröße der Links: 	20px;
+Padding um Links: 			15px
+Listenelemente: 			margin-left von 16px
+							box-shadow: 0 1px 2px rgba(0,0,0,.2);
+Hintergrundfarbe der aktuellen Seite: #FFCC33;
+
+
+Headbanner
+---------------
+Allgemein: 			padding: 10px
+Textbereich:  		width: 380px;
+Farbe für Hintergrund oder Boder:  #EAEAEA;
+
+
+Button im Header
+---------------
+Verlauf von #666 zu #000
+Schriftfarbe: weiss
+
+
+Spaltenaufteilung
+---------------
+Beide spalten:  	padding: 15px;
+breite Spalte:  	width: 613px;
+schmale Spalte: 	width: 277px;
+
+
+Border-Radius
+---------------
+border-radius: 0.5em;
+oder
+border-radius: 8px;
+
+
+Seitenspalte
+---------------
+Hintergrundfarbe der Daten:  rgb(255, 204, 51)
+
+
+Rahmenfarben
+---------------
+border: 1px solid #E1E1E1;
+border: 1px dotted #66CCFF;
+
+
+Fotos
+---------------
+padding: 8px;
+border: 1px solid #E1E1E1;
+
+Footer
+---------------
+Hintergrundfarbe: schwarz
+Der Link sollte eine andere Farbe als das hier vorgegebene blau haben.
+
+
+
+CSS-Schnipsel
+---------------
+
+/*  box sizing */
+*, *:before, *:after { 
+	-webkit-box-sizing: border-box; 
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box; 
+}
+
+html, body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: black;
+}
+
+h1{	font-size: 35px;}
+h2{	font-size: 18px;}
+h3{	font-size: 28px;}
+h4{	font-size: 18px;}
+h1, h2, h3, h4 {line-height:1.6;}
+
+/* clearfix */
+.clearfix:after { clear:both; content:"."; display:block; font-size:0; height:0; visibility:hidden; }
+.clearfix { display:block; } /* extra for Safari */
+.clearfix { *height:1%; }  /* trigger hasLayout for IE6 + 7 */
+

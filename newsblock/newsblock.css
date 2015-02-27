@@ -1,0 +1,49 @@
+body {
+    width: 623px;
+    height: 279px;
+    color: #222;
+}
+
+.section {
+    color: #787878;
+}
+
+.buzzword {
+    color: #84020f;
+}
+
+.newsBlock {
+    position: relative;
+}
+
+.headline {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.teaser-image {
+    float: left;
+    padding-right: 15px;
+}
+
+.showAll {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    color: #ababab;
+}
+
+.articles {
+    clear: both;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.otherArticle {
+    font-weight: bold;
+}
+
+time {
+    font-weight: normal;
+}

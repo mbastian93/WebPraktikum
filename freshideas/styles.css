@@ -1,0 +1,151 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: black;
+}
+
+body {background-image: url("images/bg1.png");}
+
+h1, h2, h3, h4 {line-height:1.6;}
+
+.page-container {
+    background-color: white;
+    width: 980px;
+    padding: 15px;
+    box-shadow: 0 0 5px 5px #D8D8D8;
+    margin: 0 auto;
+}
+
+.logo {display: inline-block;}
+
+header > div:first-of-type {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: #222222;
+    float: right;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    margin-top: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+nav ul:last-child {
+    margin-right: 16px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,
+nav a:focus{
+    text-decoration: underline;
+    background-color: #FFCC33;
+}
+
+nav .active {
+    background-color: #FFCC33;
+}
+
+.banner {
+    padding: 10px;
+    border-radius: 8px;
+    border: 10px solid #eaeaea;
+    background-image: url("images/banner1.png");
+}
+
+.banner h1 {
+    font-weight: inherit;
+    font-size: 32px;
+    border-bottom: 1px dotted #000000;
+    margin: 0;
+}
+
+.banner-over {
+    width: 380px;
+    padding: 45px 35px;
+    font-size: 16px;
+}
+
+.banner-over a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to bottom, #666, #000);
+    border-radius: 8px;
+    padding: 5px 30px;
+    display: inline-block;
+}
+
+.banner-over .text {
+    display: inline-block;
+    padding: 20px 0px;
+    line-height: 1.6;
+}
+
+.banner-over a:hover,
+.banner-over a:focus{
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, #848484, #282828);
+}
+
+.table {
+
+}
+
+.section-title {
+    border-bottom: 1px dotted black ;
+}
+
+.table-left {
+    width: 613px;
+}
+
+.table-right{
+    width: 277px;
+}
+
+.table-left, .table-right {
+    padding: 15px;
+    display: inline-block;
+}
+
+article {
+    display: inline-block;
+}
+
+.article {
+}
+
+.thumbnail {
+    padding: 8px;
+    border: 1px solid #E1E1E1;
+    display: inline-block;
+}
+
+.footer {
+    background-color: black;
+}

@@ -1,0 +1,70 @@
+/* clearfix */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* extra for Safari */
+.clearfix {
+  *height: 1%;
+}
+
+/* trigger hasLayout for IE6 + 7 */
+
+/* -------------------------------------------------------- */
+
+li {
+  list-style-type: none;
+}
+
+img {
+  position: absolute;
+}.one {
+
+}
+
+.two {
+
+}
+
+.three {
+
+}
+
+.four {
+
+}
+
+.five {
+
+}
+
+.six {
+
+}
+
+.seven {
+
+}
+
+.eight {
+
+}
+
+.nine {
+
+}
+
+.ten {
+  transform: r;
+}
+
+
