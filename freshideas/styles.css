@@ -102,18 +102,14 @@ nav .active {
 
 .banner-over .text {
     display: inline-block;
-    padding: 20px 0px;
+    padding: 20px 0;
     line-height: 1.6;
 }
 
 .banner-over a:hover,
 .banner-over a:focus{
     text-decoration: underline;
-    background-image: linear-gradient(to bottom, #848484, #282828);
-}
-
-.table {
-
+    background-image: linear-gradient(to bottom, #FFCC33, #666);
 }
 
 .section-title {
@@ -126,6 +122,7 @@ nav .active {
 
 .table-right{
     width: 277px;
+    float: right;
 }
 
 .table-left, .table-right {
@@ -133,19 +130,66 @@ nav .active {
     display: inline-block;
 }
 
-article {
-    display: inline-block;
+.services-intro {
+    padding-bottom: 10px;
 }
 
 .article {
+    padding: 5px 0;
+}
+
+.article > * {
+    vertical-align: top;
+}
+
+article {
+     display: inline-block;
+     width: 70%;
+    padding-left: 5px;
+ }
+
+article h3 {
+    margin: 0;
+}
+
+article a,
+.about-content a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article a:hover,
+article a:focus,
+.about-content a:hover,
+.about-content a:focus {
+    text-decoration: underline;
+    outline: 2px dotted #FFCC33;
 }
 
 .thumbnail {
     padding: 8px;
+    border-radius: 8px;
     border: 1px solid #E1E1E1;
-    display: inline-block;
 }
 
-.footer {
+.about .article {
+    padding-top: 0;
+}
+
+.about-content {
+    margin-top: -15px;
+}
+
+.about .content {
+    padding-left: 5px;
+    display: inline-block;
+    width: 60%;
+}
+
+footer {
     background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
