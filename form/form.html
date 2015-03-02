@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<form method="post">
+    <header>
+        <h2>Support Request Form</h2>
+        How can we help?
+    </header>
+
+    <div class="section name">
+        <label>Name</label>
+        <div class="first">
+            <input type="text" value="" size="8" tabindex="1">
+            <label>First</label>
+        </div>
+        <div class="last">
+            <input type="text" value="" size="14">
+            <label>Last</label>
+        </div>
+    </div>
+    <div class="section mail">
+        <label>Email</label>
+        <input type="email" value="" maxlength="255">
+    </div>
+
+    <div class="section phone">
+        <label>Phone Number</label>
+        <div class="nr-block">
+            <input type="tel" value="" size="3" maxlength="3">
+            ###
+        </div>
+        –
+        <div class="nr-block">
+            <input type="tel" value="" size="3" maxlength="3">
+            ###
+        </div>
+        –
+        <div class="nr-block">
+            <input type="tel" value="" size="4" maxlength="4">
+            ####
+        </div>
+    </div>
+
+    <div class="section location">
+        <label>
+            Where did you run into the problem? *
+        </label>
+
+        <input type="text" required>
+        Feel free to tell us the section in the program or a link to the page.
+    </div>
+    <div class="section description">
+        <label>Please describe in detail what happened. *</label>
+
+        <textarea rows="10" cols="50" tabindex="8" required></textarea>
+
+
+        Please be as specific as possible. Basically, tell us what steps we need to take to create the bug, what you expected to happen and what actually happened.
+    </div>
+
+    <div class="section os">
+        <label>Operating System *</label>
+
+        <select required>
+            <option value="" selected="selected"></option>
+            <option value="Windows XP">Windows XP</option>
+            <option value="Windows Vista">Windows Vista</option>
+            <option value="Windows 7">Windows 7</option>
+            <option value="Mac OS X">Mac OS X</option>
+            <option value="Linux">Linux</option>
+            <option value="Other">Other
+            </option>
+        </select>
+
+        This is required.
+    </div>
+
+    <div class="section browser">
+        <label>Browser *</label>
+        <select required>
+            <option value="" selected="selected"></option>
+            <option value="Internet Explorer 6">Internet Explorer 6</option>
+            <option value="Internet Explorer 7">Internet Explorer 7</option>
+            <option value="Firefox 1.5">Firefox 1.5</option>
+            <option value="Firefox 2.0">Firefox 2.0</option>
+            <option value="Safari 2">Safari 2</option>
+            <option value="Safari 3">Safari 3</option>
+            <option value="Opera">Opera</option>
+            <option value="Other">Other</option>
+        </select>
+        This is also required.
+    </div>
+
+    <input type="submit"/>
+
+</form>
+</body>
+</html>
