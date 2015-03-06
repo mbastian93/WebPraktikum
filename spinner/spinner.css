@@ -12,8 +12,8 @@
 
 .dot {
     position: absolute;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     background-color: #20A1D4;
     -webkit-animation: scale 3s linear infinite;
@@ -125,8 +125,8 @@
 
 @-webkit-keyframes scale {
     0% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
     50% {
         width: 12px;
@@ -134,15 +134,15 @@
     }
 
     100% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
 }
 
 @-o-keyframes scale {
     0% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
     50% {
         width: 12px;
@@ -150,15 +150,15 @@
     }
 
     100% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
 }
 
 @-moz-keyframes scale {
     0% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
     50% {
         width: 12px;
@@ -166,15 +166,15 @@
     }
 
     100% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
 }
 
 @keyframes scale {
     0% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
     50% {
         width: 12px;
@@ -182,7 +182,7 @@
     }
 
     100% {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
     }
 }
