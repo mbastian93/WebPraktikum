@@ -106,7 +106,6 @@ nav .active {
 
 .banner-over .text {
     display: inline-block;
-    padding: 20px 0;
     line-height: 1.6;
 }
 
@@ -116,20 +115,21 @@ nav .active {
     background-image: linear-gradient(to bottom, #FFCC33, #666);
 }
 
-.section-title {
+section h2 {
     border-bottom: 1px dotted black ;
 }
 
-.table-left {
+.column-wide {
     width: 613px;
+    float: left;
 }
 
-.table-right{
+.column-narrow {
     width: 277px;
     float: right;
 }
 
-.table-left, .table-right {
+.column-wide, .column-narrow {
     padding: 15px;
     display: inline-block;
 }
@@ -138,38 +138,42 @@ nav .active {
     padding-bottom: 10px;
 }
 
-.article {
+article {
     padding: 5px 0;
 }
 
-.article > * {
+article > * {
     vertical-align: top;
 }
 
-article {
-     display: inline-block;
-     width: 70%;
+article article {
+    display: inline-block;
+    width: 70%;
     padding-left: 5px;
- }
+}
 
-article h3 {
+article article h3 {
     margin: 0;
 }
 
-article a,
+article article p {
+    margin-top: 0;
+}
+
+article article a,
 .about-content a,
-.newsblock a {
+.newsBlock a {
     color: #000000;
     font-weight: bold;
     text-decoration: none;
 }
 
-article a:hover,
-article a:focus,
+article article a:hover,
+article article a:focus,
 .about-content a:hover,
 .about-content a:focus,
-.newsblock a:hover,
-.newsblock a:focus{
+.newsBlock a:hover,
+.newsBlock a:focus {
     text-decoration: underline;
 }
 
@@ -187,17 +191,17 @@ article a:focus,
     width: 60%;
 }
 
-.newsblock {
+.newsBlock {
     border-bottom: 1px dotted black;
     padding-bottom: 15px;
 }
 
-.newsblock h3 {
+.newsBlock h3 {
     display: inline-block;
     padding-right: 20px;
 }
 
-.newsblock time {
+.newsBlock time {
     text-align: center;
     margin-top: 1em;
     padding: 5px;
@@ -206,9 +210,16 @@ article a:focus,
     font-weight: bold;
 }
 
-.table-right .thumbnail {
+.newsBlock p {
+    margin: 0;
+}
+
+.ad-banner {
     margin-top: 20px;
     width: 247px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #E1E1E1;
 }
 
 footer {
@@ -216,14 +227,24 @@ footer {
     width: 100%;
     height: 100px;
     color: white;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 980px;
+    padding: 15px;
+}
+
+.footer-container > * {
+    padding: 15px;
+    display: inline-block;
     text-align: center;
-    text-align: -webkit-center;
 }
 
-footer div {
-    width: 50%;
+.footer-container .left {
+    width: 613px;
 }
 
-footer div > * {
-    padding-top: 40px;
+.footer-container .right {
+    width: 277px;
 }
