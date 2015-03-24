@@ -16,7 +16,7 @@ p {
 
 .module {
     width: 400px;
-    padding: 20px 80px 20px 20px;
+    padding: 20px;
 }
 
 .remaining {
@@ -49,12 +49,19 @@ p {
     background-color: #EF5F3C;
     height: 1em;
     display: block;
+    -webkit-animation: load 2s ease-in-out;
+    -o-animation: load 2s ease-in-out;
+    animation: load 2s ease-in-out;
 }
 
 .main {
     padding: 1em;
     border: 2px solid #eaeaea;
     margin-bottom: 5px;
+}
+
+.remaining-days {
+    color: #EF5F3C;
 }
 
 .col {
@@ -64,7 +71,7 @@ p {
 }
 .col + .col {
     padding-left: 0.5em;
-    padding-right: 0em;
+    padding-right: 0;
 }
 
 .input-over {
@@ -109,7 +116,7 @@ p {
     width: 100%;
     display: inline-block;
     border: 2px solid #eaeaea;
-    box-shadow: inset 0px 1px 1px #ababab;
+    box-shadow: 0 1px 1px #ababab;
     border-radius: 5px;
     text-decoration: none;
     color: #777;
@@ -143,6 +150,41 @@ p {
     visibility:hidden;
 }
 
+@-webkit-keyframes load {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@-o-keyframes load {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@-moz-keyframes load {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes load {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
 /* COLORS:
   blue: #20A1D4;
   green: #1CBC2C;
